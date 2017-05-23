@@ -60,7 +60,12 @@ class UserDetail extends React.Component {
     event.target.title.value = '';
   }
 }
-
+/* < Parent students = {['Dan', 'Jenna', 'Lynne']} />
+// ...
+//
+// ChildMapState = (state, ownProps) => {
+//   let myStudent = ownProps.students.filter((student) => {student.name == 'Dan'})
+// }*/
 /* -----------------    CONTAINER     ------------------ */
 
 const mapState = ({ users, stories }, ownProps) => {
